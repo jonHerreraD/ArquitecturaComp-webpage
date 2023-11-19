@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+
+.container{
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style:normal;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.unidades{
+    margin-left: 450px;
+}
+
+.unidad1{
+    height: 400px;
+    width: 300px;
+   
+}
+.content{
+    background-color: aqua;
+    
+}
