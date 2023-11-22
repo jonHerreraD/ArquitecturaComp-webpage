@@ -1,0 +1,113 @@
+body{
+    margin:0;
+}
+
+.header{
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.title h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style:normal;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu-bar, .flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    background-color:  #1f2937;
+    border-bottom: solid 0.5px #37475f;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+#inicio{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    font-size: 24px;
+    
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    font-size: 24px;
+    padding-right: 150px;
+}
+
+a, ul{
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    color: azure;
+}
+
+.two{
+    display: flex;
+    background-color: #37475f;
+}
+
+.side-content{
+    width: 360px;
+    padding: 17px;
+    padding-top: 40px;
+    font-size: 18px;
+    border-right: solid 5px #37475f;
+}
+.side-content ul{
+    margin: 3px;
+}
+.info{
+    background-color: #e5e5eb;
+}
+.info-content{
+    margin: 20px;
+    padding: 15px;
+    padding-left: 170px;
+    padding-right: 90px;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+img{
+    display: flex;
+    width: 450px;
+    height: 350px;
+    flex:1;
+    justify-content: center;
+    
+}
+
+.indt{
+    color: purple;
+}
+
+
+
+
+

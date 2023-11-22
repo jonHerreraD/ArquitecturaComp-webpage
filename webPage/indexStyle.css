@@ -10,25 +10,103 @@ body{
     justify-content: center;
 }
 
-.title{
+.title h1{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-style:normal;
     color: white;
     font-size: 40px;
+    margin: 0;
+    padding: 0;
     
 }
-
-.unidades{
-    margin-left: 450px;
+section{
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.unidades1-2, .unidades3-4{
+    display: flex;
+    margin-top: 50px;
+    
+    gap: 60px;
 }
 
-.unidad1{
-    height: 400px;
-    width: 300px;
+.unidad1, .unidad2, .unidad3, .unidad4{
+    height: 455px;
+    width: 400px;
+    padding: 22px;
+    border: 10px inset #1f2937;
+    border-radius: 10%;
+    background-color: #37475f;
+    color: #e5e5eb;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+p{
+    text-align: justify;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: #e5e5eb;
+    
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.unidad1:hover, .unidad2:hover, .unidad3:hover, .unidad4:hover {
+    /* Agrega una sombra alrededor del enlace */
+    
+   transform: scale(1.05); /* Escala el tamaño del enlace al 105% */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 15px white;
    
-}
+  }
+
+  .p-content{
+    height: 120px;
+    width: 600px;
+    padding: 22px;
+    border: 10px inset #1f2937;
+    border-radius: 0;
+    background-color: #37475f;
+    color: #e5e5eb;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+  }
+  .practicas{
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .p-content:hover{
+    transform: scale(1.05); /* Escala el tamaño del enlace al 105% */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 15px white;
+  }
+
+  footer{
+    display: flex;
+    flex: 1;
+    margin-top: 80px;
+    background-color: black;
+  }
+
+  h3{
+    color: white;
+  }
+
+  
+  
 .content{
     background-color: aqua;
     
