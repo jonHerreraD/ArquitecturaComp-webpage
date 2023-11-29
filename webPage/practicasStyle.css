@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.title h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style:normal;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu-bar, .flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    background-color:  #1f2937;
+    border-bottom: solid 0.5px #37475f;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+#inicio{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    font-size: 24px;
+    
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    font-size: 24px;
+    padding-right: 150px;
+}
+
+a, ul{
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    color: azure;
+}
+
+.main-container, .container{
+    display: flex;
+    flex: 1;
+    background-color: #37475f;
+    
+}
+.container{
+    flex-direction: column;
+}
+
+.container ul{
+    flex: 1;
+    margin: 15px;
+    
+}
+
+
+.container .arriba, .container .abajo, .container .texto{
+    display: flex;
+    color:aliceblue;
+    flex: 1;
+    justify-content: center;
+    gap: 80px;
+    margin: 20px;
+    
+}
+
+.container li{
+    border: 10px inset #1f2937;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.texto h1{
+    font-size: 30px;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+img{
+    width: 900px;
+    height: 500px;
+    align-self: center;
+    margin: 20px;
+}
+footer{
+    display: flex;
+    flex: 1;
+    margin-top: 0px;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+  }

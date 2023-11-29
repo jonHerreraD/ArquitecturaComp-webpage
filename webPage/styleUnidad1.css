@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: Arial, sans-serif;
 }
 
 .header{
@@ -79,14 +80,21 @@ a, ul{
 .info{
     background-color: #e5e5eb;
 }
+.info-container{
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+  }
+  
 .info-content{
-    margin: 20px;
-    padding: 15px;
-    padding-left: 170px;
-    padding-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 130px;
+    padding-right: 80px;
     font-size: 20px;
     color: black;
     text-align: justify;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
 h2{
@@ -107,7 +115,49 @@ img{
     color: purple;
 }
 
+p{
+    line-height: 1.6;
+    padding: 15px;
+}
+h1,h3,h4{
+    padding: 15px;
+}
+.side-container{
+    margin: 15px;
+    
+}
 
+.side-content{
+    line-height: 1.6;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
 
+.side-content  a{
+    transition: color 0.3s ease-in-out; 
+}
+.side-content a:hover{
+    color: #ff6347;
+  }
 
+  
+  article{
+    margin: 5px;
+    padding: 15px;
+    background-color: #e5e5eb;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  footer{
+    display: flex;
+    flex: 1;
+    margin-top: 80px;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer>p{
+    color: #e5e5eb;
+}
 
